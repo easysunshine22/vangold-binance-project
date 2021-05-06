@@ -1,0 +1,94 @@
+/* Styling the checkbox input */
+.toggle {
+  position: relative;
+  margin-top: 6px;
+  margin-left: 50px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  width: 30px;
+  height: 30px;
+  fill: #fec225;
+  border-radius: 22px;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000;
+}
+.toggle:hover{
+  fill: #fec125d5;
+  transition: .3s ease-in-out;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.toggle.light-mode{
+  fill: #000;
+}
+.toggle:hover.light-mode{
+  fill: #fec125d5;
+  transition: .3s ease-in-out;
+}
+.top-nav-collapse.light-mode .toggle{
+  fill: #fec225;
+}
+#hero-area.light-mode,
+.navbar.light-mode,
+#tokenomics.light-mode,
+#features.light-mode, .roadmap.light-mode {
+  background-color: white;
+  color: black;
+  transition: 0.4s ease-in-out;
+}
+#features.light-mode .box-item {
+  background-color: #fff;
+  box-shadow: 0 0 12px #d3d2d2;
+}
+#features.light-mode .box-item .text h4{
+  color: #000;
+}
+
+#features.light-mode .box-item:hover h4{
+  color: #fec225;
+}
+#about.light-mode, #presale.light-mode{
+  background-color: rgb(241, 237, 237);
+  color: black;
+  transition: 0.4s ease-in-out;
+}
+#about.light-mode .about-title {
+  color: rgb(22, 22, 22);
+}
+#presale.light-mode #timer div span, #presale.light-mode .airdrop-link-span span{
+  color: #000;
+}
+.footer-area.light-mode{
+  background-color: rgba(0, 0, 0, 0.87);
+}
+#hero-area.light-mode .contents .head-title,
+#presale.light-mode .presale-title,
+#tokenomics.light-mode .tokenomics-title, #features.light-mode .roadmap-title {
+  color: black;
+}
+#tokenomics.light-mode .services-item {
+  box-shadow: 0 0 12px #f4f4f4;
+}
+#hero-area.light-mode .header-button .presale-btn:hover {
+  color: black;
+}
+
+.navbar-expand-md.light-mode .navbar-nav .nav-link {
+  color: #000;
+}
+
+.top-nav-collapse.light-mode .navbar-nav .nav-link {
+  color: #fff;
+}
+
+@media(max-width: 767px){
+  .navbar-expand-md.light-mode .navbar-nav .nav-link {
+    color: #fff;
+  }  
+}
