@@ -77,7 +77,7 @@ a:not([href]):not([tabindex]) {
   line-height: 26px;
 }
 
-#presale{
+#presale {
   background-color: #000;
 }
 .presale-section-header {
@@ -354,12 +354,14 @@ hr {
 /* ==========================================================================
   8. Features Section Style
    ========================================================================== */
-#features, .roadmap {
+#features,
+.roadmap {
   background: #000;
   border-bottom: 1px solid #99999927;
 }
 
-#features .icon, .roadmap .icon{
+#features .icon,
+.roadmap .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -369,19 +371,22 @@ hr {
   z-index: 1;
 }
 
-#features .content-left span, .roadmap .content-left span {
+#features .content-left span,
+.roadmap .content-left span {
   float: right;
 }
-.text .fas{
+.text .fas {
   color: #fec225;
 }
-#features .content-left .text, .roadmap .content-left .text {
+#features .content-left .text,
+.roadmap .content-left .text {
   text-align: left;
 }
 .fa-check-circle {
   margin-right: 10px;
 }
-#features .content-right span, .roadmap .content-right span {
+#features .content-right span,
+.roadmap .content-right span {
   float: right;
 }
 .advert {
@@ -414,7 +419,8 @@ hr {
 .cta-text .bscan:hover {
   background-color: red;
 }
-#features .box-item, .roadmap .box-item {
+#features .box-item,
+.roadmap .box-item {
   box-shadow: 0 0 12px #3f3e3e;
   padding: 15px;
   line-height: 22px;
@@ -428,7 +434,8 @@ hr {
   top: 0;
 }
 
-#features .box-item .icon, .roadmap .box-item .icon {
+#features .box-item .icon,
+.roadmap .box-item .icon {
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
@@ -437,7 +444,8 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i, .roadmap .box-item .icon i {
+#features .box-item .icon i,
+.roadmap .box-item .icon i {
   color: #fec225;
   font-size: 30px;
   -webkit-transition: all 0.2s linear;
@@ -446,7 +454,8 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text h4, .roadmap .box-item .text h4 {
+#features .box-item .text h4,
+.roadmap .box-item .text h4 {
   cursor: pointer;
   color: #fff;
   font-size: 18px;
@@ -458,24 +467,29 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text p, .roadmap .box-item .text p {
+#features .box-item .text p,
+.roadmap .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover, .roadmap .box-item:hover {
+#features .box-item:hover,
+.roadmap .box-item:hover {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-#features .box-item:hover h4, .roadmap .box-item:hover h4  {
+#features .box-item:hover h4,
+.roadmap .box-item:hover h4 {
   color: #fec225;
 }
 
-#features .show-box, .roadmap .show-box {
+#features .show-box,
+.roadmap .show-box {
   margin-top: 50px;
 }
 
-#features .show-box img, .roadmap .show-box img {
+#features .show-box img,
+.roadmap .show-box img {
   width: 100%;
 }
 
@@ -492,7 +506,8 @@ hr {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
-#tokenomics, #about{
+#tokenomics,
+#about {
   background-color: #000;
   border-bottom: 1px solid #99999927;
 }
@@ -568,7 +583,7 @@ hr {
 .about-area .content p {
   margin-bottom: 30px;
 }
-#contractAdd #cta{
+#contractAdd #cta {
   background-color: #000;
 }
 #cta {
@@ -851,7 +866,6 @@ hr {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-
 .team-item {
   margin: 15px 0;
   border-radius: 0px;
@@ -948,14 +962,13 @@ hr {
   text-align: center;
   margin-top: 80px;
 }
-.roadmap .roadmap-title{
+.roadmap .roadmap-title {
   color: #fff;
 }
-.roadmap-container{
+.roadmap-container {
   max-width: 1200px;
-	margin: auto;
+  margin: auto;
   padding: 40px;
-
 }
 
 #roadmap {
@@ -1095,7 +1108,7 @@ hr {
   height: 700px;
   background-color: #fec225;
 }
-#team-container{
+#team-container {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -1411,13 +1424,13 @@ textarea {
 .drop-participate {
   margin-top: 30px;
 }
-.airdrop-link-span{
+.airdrop-link-span {
   margin-bottom: 10px;
 }
-.airdrop-link-span h2{
+.airdrop-link-span h2 {
   color: #fff;
 }
-.drop-participate .airdrop-link-span span{
+.drop-participate .airdrop-link-span span {
   color: #fec225;
   font-size: 18px;
 }
@@ -1445,18 +1458,21 @@ textarea {
   font-size: 16px;
 }
 
-.partner-content{
+.partner-content {
   width: 100%;
-text-align: center;
-/* border: 1px solid red; */
-display: flex;
-align-items: center;
-justify-content: center;
+  text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
-.partner-content .partner-logos{
+.partner-content .partner-logos {
   height: 100px;
 }
-
+.partner-content .dappradder {
+  height: 50px;
+}
 
 /* Footer Area Start */
 .footer-area {
