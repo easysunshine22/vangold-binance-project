@@ -1467,9 +1467,14 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+.partner{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 @media(max-width: 767px){
   .partner-content{
     flex-direction: column;
+    
   }
 }
 .partner-content .partner-logos {
