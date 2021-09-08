@@ -343,6 +343,8 @@ hr {
 }
 .intro-img {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .intro-img h2 {
   font-size: 20px;
@@ -354,6 +356,55 @@ hr {
 /* ==========================================================================
   8. Features Section Style
    ========================================================================== */
+.swaptoken-title {
+  color: #000;
+}
+.swaptoken-header p{
+  font-size: 1.5rem;
+  color: rgb(22, 22, 22);
+  margin-top: 10px;
+}
+.swaptoken-content {
+  max-width: 450px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.swaptoken-content .btns {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.swaptoken-content .btns a {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fec225;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+.swaptoken-content .btns a:hover {
+  background-color: #d8a629;
+}
+.swaptoken-article {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.swaptoken-article p {
+  color: #000;
+}
+.swaptoken-article a {
+  color: #fec225;
+}
 #features,
 .roadmap {
   background: #000;
@@ -1467,14 +1518,13 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-.partner{
+.partner {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-@media(max-width: 767px){
-  .partner-content{
+@media (max-width: 767px) {
+  .partner-content {
     flex-direction: column;
-    
   }
 }
 .partner-content .partner-logos {
