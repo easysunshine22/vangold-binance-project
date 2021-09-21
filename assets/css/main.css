@@ -907,6 +907,9 @@ hr {
   margin-right: 10px;
   letter-spacing: 1.5px;
 }
+.airdrop-btn:hover{
+  color: #FEC225;
+}
 
 .sloder-img {
   background: #34363a;
