@@ -1697,3 +1697,10 @@ textarea {
 .footer-social-icon .reddit:hover {
   color: #ff4500;
 }
+
+.coverTimer{
+  height: 30px;
+  position: relative;
+  top: -30px;
+  background-color: #000;
+}
